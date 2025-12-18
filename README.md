@@ -159,4 +159,4 @@ Performance Features
 
 Survive, Collect, Thrive - Be the Last Dino Standing!
 
-Last Updated: [Date]
+Last Updated: 
