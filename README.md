@@ -10,7 +10,7 @@ A thrilling 3D survival game where you control a dinosaur navigating through a p
 2. 🥚 Egg Collection System - Collect randomly spawning eggs throughout the city
 3. 💪 Stamina Management - Monitor and manage your dino's energy levels
 4. ❤️ Enhanced Health System - 3 lives with two distinct death animations (normal & meteor death with fire effects)
-5. 👾 Enemy Dinosaur AI - Intelligent enemies that chase and grow stronger over time
+5. 👾 Enemy Dinosaur AI - Intelligent enemies that chase and grow stronger over time (growth in limit)
 6. ⚔️ Combat System - Throw collected eggs to defeat enemies
 7. 🌈 Egg Types & Power-ups - Four egg types with different effects (normal, golden, stamina, power)
 8. 🔄 Enemy Spawn System - Dynamic enemy respawning maintaining constant challenge
@@ -38,7 +38,7 @@ R Restart Game Restart after game over
 P Pause Game Pause/resume gameplay
 +/- Zoom Zoom camera in/out
 
-📖 Game Rules
+Game Rules:
 
 Objective
 
@@ -95,7 +95,7 @@ Installation Steps
    python main.py
    ```
 
-🎯 How to Play
+How to Play:
 
 Getting Started
 
@@ -112,7 +112,7 @@ Survival Tips
 · Aim carefully when throwing eggs at enemies
 · Use buildings as cover from enemies
 
-Cheat Mode
+Cheat Mode:
 
 Press Tab to enable cheat mode with:
 
@@ -121,7 +121,7 @@ Press Tab to enable cheat mode with:
 · Infinite stamina
 · Skip meteor showers
 
-🏗️ Project Structure
+Project Structure:
 
 ```
 dino-city-survival-3d/
@@ -132,16 +132,15 @@ dino-city-survival-3d/
 └── screenshots/           # Game screenshots
 ```
 
-🧠 Technical Details
 
-Built With
+Built With:
 
 · Python 3.x - Core programming language
 · PyOpenGL - 3D graphics rendering
 · OpenGL Utility Toolkit (GLUT) - Window management and input handling
 · Standard Python Libraries - math, random, time
 
-Graphics Pipeline
+Graphics Pipeline:
 
 · Uses immediate mode OpenGL rendering
 · Vertex-based primitive drawing (GL_QUADS, GL_TRIANGLES)
@@ -149,7 +148,7 @@ Graphics Pipeline
 · Depth buffering for proper 3D rendering
 · Texture-less shading with colored primitives
 
-Performance Features
+Performance Features:
 
 · Efficient collision detection using spatial partitioning
 · Object pooling for frequent creations (eggs, particles)
