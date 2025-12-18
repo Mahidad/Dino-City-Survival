@@ -81,7 +81,7 @@ Installation Steps
 3. Install GLUT (depending on your OS):
    Windows:
    · Download freeglut from: http://freeglut.sourceforge.net/
-   · Place freeglut.dll in your System32 folder or project directory
+   · Place freeglut.dll in System32 folder or project directory
    macOS:
    ```bash
    brew install freeglut
