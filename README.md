@@ -128,13 +128,7 @@ dino-city-survival-3d/
 ├── main.py                 # Main game file
 ├── README.md               # This file
 ├── requirements.txt        # Python dependencies
-├── assets/                 # Game assets (if any)
-│   └── (textures, sounds)
-├── modules/                # Optional modular structure
-│   ├── game_objects.py    # Dinosaur, eggs, enemies classes
-│   ├── city_generator.py  # Procedural city generation
-│   ├── physics_engine.py  # Collision and movement physics
-│   └── ui_renderer.py     # UI and HUD rendering
+├── assets/                 # Glut files
 └── screenshots/           # Game screenshots
 ```
 
